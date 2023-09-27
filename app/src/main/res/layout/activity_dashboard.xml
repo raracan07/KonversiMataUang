@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:clickable="true"
+    android:fitsSystemWindows="true"
+    tools:context=".DashboardActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="50dp"
+                    android:fontFamily="@font/chelsea_market"
+                    android:text="Dashboard"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="44sp"
+                    android:textStyle="bold" />
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="2"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="2">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_konversi"
+                            android:layout_width="155dp"
+                            android:layout_height="170dp"
+                            android:layout_margin="8dp"
+                            android:clickable="true"
+                            app:cardBackgroundColor="@color/colorPrimaryDark"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_marginTop="20dp"
+                                            android:src="@drawable/currencycalculator"
+                                            app:srcCompat="@drawable/currencycalculator" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:fontFamily="@font/chelsea_market"
+                                            android:text="Konversi"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="20sp" />
+
+                                </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_info"
+                            android:layout_width="155dp"
+                            android:layout_height="170dp"
+                            android:layout_margin="8dp"
+                            android:clickable="true"
+                            app:cardBackgroundColor="@color/colorPrimaryDark"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_marginTop="20dp"
+                                            android:src="@drawable/studentfemale"
+                                            app:srcCompat="@drawable/studentfemale" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:fontFamily="@font/chelsea_market"
+                                            android:text="Info"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="20sp" />
+
+                                </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_sejarah"
+                            android:layout_width="155dp"
+                            android:layout_height="170dp"
+                            android:layout_margin="8dp"
+                            android:clickable="true"
+                            app:cardBackgroundColor="@color/colorPrimaryDark"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_marginTop="20dp"
+                                            android:src="@drawable/webread"
+                                            app:srcCompat="@drawable/webread" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:fontFamily="@font/chelsea_market"
+                                            android:text="Sejarah"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="20sp" />
+
+                                </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/card_keluar"
+                            android:layout_width="155dp"
+                            android:layout_height="170dp"
+                            android:layout_margin="8dp"
+                            android:clickable="true"
+                            app:cardBackgroundColor="@color/colorPrimaryDark"
+                            app:cardCornerRadius="20dp"
+                            app:cardElevation="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_marginTop="20dp"
+                                            android:src="@drawable/close"
+                                            app:srcCompat="@drawable/close" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="20dp"
+                                            android:fontFamily="@font/chelsea_market"
+                                            android:text="Keluar"
+                                            android:textColor="@android:color/black"
+                                            android:textSize="20sp" />
+
+                                </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/chelsea_market"
+                    android:gravity="center|end"
+                    android:text="  Design By :"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/chelsea_market"
+                    android:gravity="center_horizontal"
+                    android:text="Adli Tiara Utsalis"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+        </LinearLayout>
+
+</ScrollView>

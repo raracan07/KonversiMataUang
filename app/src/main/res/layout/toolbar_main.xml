@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="380dp"
+    android:layout_height="255dp"
+    android:layout_gravity="start|right"
+    android:background="@drawable/bg_rounded_rect"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="390dp"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/imgProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="354dp"
+            android:layout_height="222dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="7dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="112dp"
+                android:layout_centerVertical="false"
+                android:layout_gravity="fill_horizontal"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/currency" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/chelsea_market"
+                android:text="Hallo!!"
+                android:textColor="@android:color/white"
+                android:textSize="29sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/chelsea_market"
+                android:text="Mata uang apa yang ingin Anda konversi?"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
